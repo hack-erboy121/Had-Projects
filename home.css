@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#main{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background: white;
+}
+
+#child1{
+    width: 20%;
+    height: 100px;
+    background: url(./download.png) no-repeat center;
+    /* background-size: 300px; */
+    margin-top: 7px;
+    color: white;
+}
+#child2{
+    width: 80%;
+    height: 100px;
+    color: white;
+
+}
+ul{
+    display: flex;
+    gap: 150px;
+    color: white;
+}
+li{
+    list-style: none;
+    margin: 50px;
+    font-size: 30px;
+}
+a{
+text-decoration: none;
+color: black;
+font-weight: bold;
+}
+a:hover{
+    background-color: aqua;
+   width: 200px;
+   height: 100px;
+    border-radius: 30px;
+    margin-top: 5px;
+    transition: 0.5s ease;
+    color:hsla(261, 94%, 25%, 0.918) ;
+    font-weight: bolder;
+    /* padding-top: px; */
+}
+
+#main2{
+    background: hsla(261, 94%, 25%, 0.918);
+    width: 100%;
+    height: 88.5vh;
+    margin-top: 10px;
+    display: flex;
+}
+#text{
+    width: 600px;
+    height:600px;
+/* border: 2px solid; */
+margin-left: 100px;
+margin-top: 100px;
+}
+#h1{
+    width: 100%;
+    height: 40%;
+    /* background: white; */
+}
+#h2{
+    width: 100%;
+    height: 60%;
+    /* background: white; */
+}
+h1{
+    color: white;
+    font-size: 50px;
+}
+span{
+    margin-left: 20px;
+}
+#sp{
+    margin-left: 50px;
+}
+#sp1{
+    margin-left: 380px;
+}
+h2{
+    color: rgb(230, 227, 222);
+}
+#sp2{
+    margin-left: 50px;
+}
+#sp3{
+    margin-left: 130px;
+}
+#sp4{
+    margin-left: 20px;
+}
+input{
+   /* width: 100px;
+   height: 50px; */
+   padding: 20px;
+   border-radius: 10px;
+   border: 2px solid white;
+   margin-left: 30px;
+}
+::placeholder{
+    font-size: 20px;
+}
+button{
+    padding: 18px;
+    border-radius: 10px;
+    background: greenyellow;
+    border:greenyellow ;
+    cursor:pointer;
+}
+button:hover{
+    background-color:rgb(145, 218, 37) ;
+    /* color: blue; */
+}
+#pic{
+    width: 50%;
+    height: 200px;
+    background: url(./Capture.PNG) no-repeat;
+    background-size: 300px;
+}
+#him{
+    width: 49%;
+    height: 420px;
+    background: white;
+    margin-left: 230px;
+    margin-top: 70px;
+    border-radius: 50%;
+    background: url(./hadi1.JPG) no-repeat center;
+}
+#inf{
+    width: 50%;
+height: 700px;
+/* border: 2px solid white; */
+margin-left: 300px;
+
+}
+h3{
+    color: white;
+    font-size: 50px;
+}
